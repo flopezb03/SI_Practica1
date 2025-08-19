@@ -1,0 +1,1 @@
+Para la base de datos se ha usado un contenedor de docker con mysql:8. Para copiar los archivos de la base de datos se ha usado el comando: `docker exec -it <nombre_contenedor> mysqldump -uroot -proot --all-databases > backup.sql` 
